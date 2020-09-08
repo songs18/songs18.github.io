@@ -63,15 +63,16 @@
 				<div id="navbar" class="collapse">
 					<ul>
 						<li class="active"><a href="#" data-nav-section="about">About</a></li>
+						<li class="active"><a href="#" data-nav-section="research">Research</a></li>
+						<li class="active"><a href="#" data-nav-section="cv">CV</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
-
 		</aside>
 
 		<div id="colorlib-main">
-
+			<!--section : about-->
 			<section class="colorlib-about" data-section="about">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -98,6 +99,50 @@
 				</div>
 			</section>
 
+            <!--section : research-->
+            <section class="colorlib-research" data-section="research">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                            <h2 class="colorlib-heading animate-box">Research</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                            <b>[2020]</b><br/>
+                            1. Embedding Compression with Right Triangle Similarity Transformations<br/>
+                                <div class="sub-header"><i>accepted by ICANN2020 (CCF-C)</i><br/>
+                                <div style="font-size: 14px">Haohao Song, Dongsheng Zou, Lei Hu and Jieying Yuan</div>
+                                <div class="text-desc">Abstract: Word embedding technology has promoted the development of many NLP tasks. However, these embeddings often require a lot of storage, memory, and computation, resulting in low efficiency in NLP tasks. To address the problem, this paper proposes a new method for compressing word embeddings. We sample a set of orthogonal vector pairs from word embedding matrix in advance. Then these vector pairs are fed into a neural network sharing weights (i.e., Siamese network), and low-dimensional forms of the vector pairs are obtained. We get two vector triplets by adding the subtraction results of the vector pairs, respectively, which can be regarded as two triangles. The neural network is trained by minimizing the mean square error of the three internal angles between the two triangles. Finally, we extract its shared body as a compressor. The essence of this method is the right triangle similarity transformation (RTST), which is a combination of manifold learning and neural networks. It is distinguishable from other methods. The orthogonality in right triangles is beneficial to the compressed space construction. RTST also maintains the relative order of each edge (vector norm) in triangles. Experimental results on semantic similarity tasks reveal that the vector size is 64% of the original, while the performance is improved by 1.8%. When the compression rate reaches 2.7%, the performance drop is only 1.2%. Detailed analysis and ablation study further validate the rationality and the robustness of the RTST method. </div>
+                                <div class="v-sep-medium"></div>
+
+                            2. Learning Discrete Sentence Representations via Construction & Decomposition<br/>
+                                <div class="sub-header"><i>accepted by ICONIP2020 (CCF-C)</i><br/>
+                                <div style="font-size: 14px">Haohao Song, Dongsheng Zou and Weijia Li</div>
+                                <div class="text-desc">Abstract: Word embedding technology has promoted the development of many NLP tasks. However, these embeddings often require a lot of storage, memory, and computation, resulting in low efficiency in NLP tasks. To address the problem, this paper proposes a new method for compressing word embeddings. We sample a set of orthogonal vector pairs from word embedding matrix in advance. Then these vector pairs are fed into a neural network sharing weights (i.e., Siamese network), and low-dimensional forms of the vector pairs are obtained. We get two vector triplets by adding the subtraction results of the vector pairs, respectively, which can be regarded as two triangles. The neural network is trained by minimizing the mean square error of the three internal angles between the two triangles. Finally, we extract its shared body as a compressor. The essence of this method is the right triangle similarity transformation (RTST), which is a combination of manifold learning and neural networks. It is distinguishable from other methods. The orthogonality in right triangles is beneficial to the compressed space construction. RTST also maintains the relative order of each edge (vector norm) in triangles. Experimental results on semantic similarity tasks reveal that the vector size is 64% of the original, while the performance is improved by 1.8%. When the compression rate reaches 2.7%, the performance drop is only 1.2%. Detailed analysis and ablation study further validate the rationality and the robustness of the RTST method. </div>
+                                <div class="v-sep-medium"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--section : cv-->
+            <section class="colorlib-education" data-section="cv">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                            <h2 class="colorlib-heading animate-box">Curriculum Vitae</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                            <iframe src="files/CV.pdf" frameborder="0" allowfullscreen="" width="100%" height="700px"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--section : contact-->
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
